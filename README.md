@@ -3,7 +3,7 @@ To create a conditional profile card based on the information entered into the s
 
 # Main structure
 The project consist of html and javascript code.
-The html code contains the the boxes where to enter all the information that is going to configure the card. At the end there is an empty "<div>" to be filled by the Javascript.
+The html code contains the the boxes where to enter all the information that is going to configure the card. At the end there is an empty "<"div">" to be filled by the Javascript.
 The Javascript uses the following functions:
 1. window.onload -> where we create all the initial variables needed.
 2. addEventListener -> every change on the boxes is listened 
