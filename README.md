@@ -7,7 +7,7 @@ The html code contains the the boxes where to enter all the information that is 
 The Javascript uses the following functions:
 1. window.onload -> where we create all the initial variables needed.
 2. addEventListener -> every change on the boxes is listened 
-3. render -> fill the empty div with all the conditional information to create a card
+3. render -> fill the empty d.i.v with all the conditional information to create a card
 
 
 # Initial Variable Values
