@@ -42,6 +42,16 @@ function render(variables = {}) {
           <h2>${variables.role || "Role"}</h2>
           <h3>${variables.city || "City"}, ${variables.country ||
     "Country"} </h3>
+          <h3>Twitter: ${
+            variables.twitter == null ? "" : variables.twitter
+          }</h3>
+          <h3>Github: ${variables.github == null ? "" : variables.github}</h3>
+          <h3>Linkedin: ${
+            variables.linkedin == null ? "" : variables.linkedin
+          }</h3>
+          <h3>Instagram: ${
+            variables.instagram == null ? "" : variables.instagram
+          }</h3>
           <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${
               variables.twitter == null ? "4geeksacademy" : variables.twitter
@@ -77,7 +87,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "alesanchezr",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
